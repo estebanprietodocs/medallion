@@ -6,8 +6,11 @@ sources:
     schema: dbt_models
     tables:
       - name: new_test
-
-
+  - name: test2
+    database: airbyte
+    schema: airbyte_sources
+    tables:
+      - name: sources__customers
 
 # sources:
 #   - name: airbyte

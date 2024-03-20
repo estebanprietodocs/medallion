@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: test2
-    database: airbyte
-    schema: airbyte_sources
-    tables:
-      - name: sources__customers
