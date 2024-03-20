@@ -1,6 +1,0 @@
-
-    select 
-    
-    {{json_extract('_airbyte_data', ['customer_id']) }} as id,
-    
-    from {{source('airbyte','customers')}}
