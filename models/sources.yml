@@ -6,18 +6,13 @@ sources:
     schema: dbt_models
     tables:
       - name: new_test
-  - name: test2
+  - name: airbyte
     database: airbyte
     schema: airbyte_sources
     tables:
       - name: sources__customers
+      - name: sources__orders
+      - name: sources__order_details
+      - name: sources__products
 
-# sources:
-#   - name: airbyte
-#     database: airbyte
-#     schema: airbyte_sources
-#     tables:
-#       - name: customers
-#       - name: products
-#       - name: orders
-#       - name: order_details
+
